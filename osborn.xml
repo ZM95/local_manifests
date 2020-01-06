@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/zm95"/>
+  <remote fetch="https://github.com/lineageos"/>
+
+  <remove-project name="LineageOS/android_packages_resources_devicesettings" />
+
+
+  <project name="android_device_smartisan_osborn" path="device/smartisan/osborn" remote="osborn" revision="lineage-17.0" />
+  <project name="android_device_smartisan_sdm660-common" path="device/smartisan/sdm660-common" remote="sdm660-common" revision="lineage-17.0" />
+  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="devicesettings" revision="lineage-17.0" />
+<manifest>
