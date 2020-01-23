@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote fetch="https://github.com/lineageos"/>
+  <remote fetch="https://github.com/TheScarastic"/>
+
+  <remove-project name="LineageOS/android_packages_resources_devicesettings" />
+
+
+  <project name="android_device_xiaomi_gemini" path="device/xiaomi/gemini" remote="gemini" revision="lineage-15.1" />
+  <project name="android_device_xiaomi_msm8996-common" path="device/xiaomi/msm8996-common" remote="msm8996-common" revision="lineage-15.1" />
+  <project name="proprietary_vendor_xiaomi" patch="vendor" remote="xiaomi" revision="lineage-15.1" />
+  <project name="android_packages_resources_devicesettings" path="packages/resources/devicesettings" remote="devicesettings" revision="lineage-17.0" />
+https://github.com/TheScarastic/proprietary_vendor_xiaomi.git
+<manifest>
